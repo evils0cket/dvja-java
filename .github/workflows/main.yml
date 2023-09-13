@@ -1,0 +1,23 @@
+name: "Sync GHAS to Jira"
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    # The branches below must be a subset of the branches above
+    branches: [ "master" ]
+  schedule:
+    - cron: '*/10 * * * *'    # trigger synchronization every 10 minutes
+
+jobs:
+  test_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sync alerts to Jira issues
+        uses: github/ghas-jira-integration@v1.2.3
+        with:
+          jira_url: 'https://billo-bagge.atlassian.net'
+          jira_user: '${{ secrets.JIRA_USER }}'
+          jira_token: '${{ secrets.JIRA_TOKEN }}'
+          jira_project: 'CF'
+          sync_direction: 'gh2jira'
