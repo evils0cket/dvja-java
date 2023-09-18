@@ -1,0 +1,10 @@
+cloudgoat_output_aws_account_id = "333594182830"
+cloudgoat_output_chris_access_key_id = "AKIAU3K6DISTRA3NI7M3"
+cloudgoat_output_chris_secret_key = <sensitive>
+
+[cloudgoat] terraform apply completed with no error code.
+
+[cloudgoat] terraform output completed with no error code.
+cloudgoat_output_aws_account_id = 333594182830
+cloudgoat_output_chris_access_key_id = AKIAU3K6DISXFA3NI7M3
+cloudgoat_output_chris_secret_key = 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
