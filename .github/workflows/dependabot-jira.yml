@@ -18,5 +18,5 @@ jobs:
           JIRA_HOST: https://billo-bagge.atlassian.net
           JIRA_USER: v.bhat24@gmail.com
           JIRA_PROJECT: SIN
-          JIRA_ISSUE_TYPE: Security
+          JIRA_ISSUE_TYPE: Bug
           JIRA_WATCHERS: v.bhat24@gmail.com
