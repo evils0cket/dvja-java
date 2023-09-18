@@ -19,5 +19,6 @@ jobs:
           jira_url: 'https://billo-bagge.atlassian.net'
           jira_user: '${{ secrets.JIRA_USER }}'
           jira_token: '${{ secrets.JIRA_TOKEN }}'
+          github_token: '${{ secrets.PERSONAL_ACCESS_TOKEN }}'
           jira_project: 'CF'
           sync_direction: 'gh2jira'
