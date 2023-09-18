@@ -20,4 +20,4 @@ jobs:
           JIRA_PROJECT: SIN
           JIRA_ISSUE_TYPE: Bug
           JIRA_WATCHERS: v.bhat24@gmail.com
-          JIRA_RESTRICTED_COMMENT_ROLE: "*"
+          JIRA_RESTRICTED_COMMENT_ROLE: Adminstrators
